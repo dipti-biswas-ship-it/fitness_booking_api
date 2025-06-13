@@ -10,7 +10,7 @@ A RESTful API for managing fitness classes and bookings, built with **FastAPI**,
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/fitness_booking_api.git
+git clone https://github.com/dipti-biswas-ship-it/fitness_booking_api.git
 cd fitness_booking_api
 
 python -m venv venv
