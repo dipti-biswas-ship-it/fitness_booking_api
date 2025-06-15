@@ -16,5 +16,5 @@ class Booking(Base):
     id = Column(Integer, primary_key=True, index=True)
     class_id = Column(Integer, ForeignKey("classes.id"), nullable=False)
     client_name = Column(String, nullable=False)
-    client_email = Column(String, nullable=False)
+    client_email = Column(String, nullable=False, unique=True)
     fitness_class = relationship("FitnessClass", back_populates="bookings")
